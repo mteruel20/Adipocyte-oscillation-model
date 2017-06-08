@@ -1,10 +1,11 @@
 %% Modeling ODEs with noise
+% Added to GitHub on 2017-06-08
 
 tspan = [0:300]; % time is in hours
 x0 = [0.1 0.1 0.1]; % initial values
 R =.57; % 
 stimend = 48;
-c = 2;
+c = 3;
 mu=0;
 sigma=0.3;
 
